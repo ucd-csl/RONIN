@@ -19,7 +19,7 @@ Ronin is an opensource macroscopic simulator developed in Java at UCD, Ireland. 
 	}
 
 
-## How to use Ronin
+## How to Use Ronin
 
 In this project, you can find the sources of the macroscopic simulator developed in java, and python scripts that are used to compare the outputs of Ronin with outputs of SUMO.
 
