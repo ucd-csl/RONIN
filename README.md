@@ -1,8 +1,25 @@
-# Ronin
+# Ronin: a SUMO Interoperable Mesoscopic Urban Traffic Simulator
+Ronin is an opensource macroscopic simulator developed in Java at UCD, Ireland. It is "SUMO-friendly" as it takes in inputs files used by SUMO such as SUMO net file and SUMO route file. Its algorithm is based on the idea of computing a Loads Matrix for each step of the simulation from the project ROThAr.
 
-Ronin is an opensource macroscopic simulator developed in java at UCD,Ireland. It is "SUMO-friendly" as it takes in inputs files used by SUMO such as SUMO net file and SUMO route file. Its algorithm is based on the idea of computing a Loads Matrix for each step of the simulation from the project ROThAr.
 
-## How works Ronin project
+## Contributors:
+* Takfarinas Saber: Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
+* Côme Cachard: Institut National des Sciences Appliquées, Lyon, France
+* Anthony Ventresque: Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
+
+## Citation:
+
+	@inproceedings{saber2020ronin,
+	  title={RONIN: a SUMO Interoperable Mesoscopic Urban Traffic Simulator},
+	  author={Saber, Takfarinas and Cachard, Côme and Ventresque, Anthony},
+	  booktitle={SmartCity},
+	  pages={},
+	  year={2020},
+	  organization={IEEE}
+	}
+
+
+## How to use Ronin
 
 In this project, you can find the sources of the macroscopic simulator developed in java, and python scripts that are used to compare the outputs of Ronin with outputs of SUMO.
 
@@ -222,18 +239,15 @@ The simulator and the python scripts are totally independant. One produces outpu
 * pyexcel==0.4.5
 * scipy==0.18.1
 
-## Authors
-
-* **Côme Cachard**
-* **Anthony Ventresque**
-
 
 ## License
 
 This project is licensed under the ? License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+This work was supported with the financial support of the Science Foundation Ireland grant 13/RC/2094 and co-funded under the European Regional Development Fund through the Southern & Eastern Regional Operational Programme to Lero - the Irish Software Research Centre (www.lero.ie).
 
+## References
 * T. Saber, A. Ventresque and J. Murphy, "ROThAr: Real-Time On-Line Traffic Assignment with Load Estimation," 2013 IEEE/ACM 17th International Symposium on Distributed Simulation and Real Time Applications, Delft, 2013, pp. 79-86.
 doi: 10.1109/DS-RT.2013.17,URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6690497&isnumber=6690476
 * SUMO official website : http://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/
