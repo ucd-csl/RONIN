@@ -3,9 +3,9 @@ Ronin is an opensource macroscopic simulator developed in Java at UCD, Ireland. 
 
 
 ## Contributors:
-* Takfarinas Saber: Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
-* Côme Cachard: Institut National des Sciences Appliquées, Lyon, France
-* Anthony Ventresque: Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
+* **Takfarinas Saber:** Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
+* **Côme Cachard:** Institut National des Sciences Appliquées, Lyon, France
+* **Anthony Ventresque:** Lero – the Irish Software Research Centre, School of Computer Science, University College Dublin, Ireland
 
 ## Citation:
 
