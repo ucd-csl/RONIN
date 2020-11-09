@@ -1,4 +1,4 @@
-# Ronin: a SUMO Interoperable Mesoscopic Urban Traffic Simulator
+# RONIN: a SUMO Interoperable Mesoscopic Urban Traffic Simulator
 Ronin is an opensource macroscopic simulator developed in Java at UCD, Ireland. It is "SUMO-friendly" as it takes in inputs files used by SUMO such as SUMO net file and SUMO route file. Its algorithm is based on the idea of computing a Loads Matrix for each step of the simulation from the project ROThAr.
 
 
@@ -216,7 +216,7 @@ python compareStats.py --ronin_tripinfos inputs/ronin/tripinfos.ti.xml --ronin_e
 ### Use the GUI
 
 Ronin has a GUI that allows the user to see the result of a simulation (not launching and see the result in real time, yet).
-So the user must open first a sumo network file, then he can open a matrix of loads folder that will display the result of the corresponding simulation. The window of the application will then display a tableview with the list of the edges with their loads for each step of the simulation, and a list view with all the step of the simulation. The map of the concerned city will be updated automatically. Below the usage of the GUI :
+So the user must open first a sumo network file, then he can open a matrix of loads folder that will display the result of the corresponding simulation. The window of the application will then display a tableview with the list of the edges with their loads for each step of the simulation, and a list view with all the step of the simulation. The map of the concerned city will be updated automatically. Below the usage of the GUI:
 
 ```
 java -cp ronin.jar ie.ucd.pel.ronin.javafx.MainFx
