@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2017 Come CACHARD
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./cologne.net.xml"/>
+        <!--<route-files value="new_output_0.rou.xml"/>-->
+    </input>
+   
+	<time>
+        <begin value="21600"/>
+    </time>
+	
+    <processing>
+        <route-steps value="8000"/>
+        <!--<no-internal-links value="true"/>-->
+        <scale value="1"/>
+        <time-to-teleport value="160"/>
+        <eager-insert value="true"/>
+        <lanechange.allow-swap value="false"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <no-step-log value="true"/>
+    </report>
+<!--
+	<traci_server>
+        <remote-port value="8010"/>
+    </traci_server>
+-->
+</configuration>

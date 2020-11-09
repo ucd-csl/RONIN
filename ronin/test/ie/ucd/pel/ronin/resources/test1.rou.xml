@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2017 Come CACHARD
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<routes>
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+
+  <vehicle depart="54000" id="veh1"  type="CarA" >
+    <route id="route01" edges="D2 L2 L12 L10 L7 D7"/>
+  </vehicle>
+  <vehicle depart="54000" id="veh2" type="CarA" >
+    <route id="route02" edges="D2 L2 L12 L15 L18 L5 D5"/>
+  </vehicle>
+  <vehicle depart="54000" id="veh3" type="CarA" >
+    <route id="route03" edges="D2 L2 L12 L15 L13 L3 D3"/>
+  </vehicle>
+  <vehicle depart="54000" id="veh16" type="CarB" >
+    <route id="route04" edges="D4 L4 L14 L18 L5 D5"/>
+  </vehicle>
+  <vehicle depart="54000" id="veh17" type="CarB" >
+    <route id="route05" edges="D4 L4 L14 L16 L10 L7 D7"/>
+  </vehicle>
+  <vehicle depart="54000" id="veh18" type="CarB" >
+    <route id="route06" edges="D4 L4 L14 L16 L11 L1 D1"/>
+  </vehicle>
+
+</routes>
